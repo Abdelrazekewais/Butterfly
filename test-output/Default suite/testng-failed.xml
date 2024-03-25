@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="Tests.CasosTests">
+        <methods>
+          <include name="StopDriver"/>
+          <include name="TC58_Create_a_Cases_linked_to_opportunities_without_Complexity"/>
+          <include name="StartDriver"/>
+        </methods>
+      </class> <!-- Tests.CasosTests -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
